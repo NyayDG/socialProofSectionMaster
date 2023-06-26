@@ -1,0 +1,126 @@
+body {
+    overflow: visible;
+    font-family: 'League Spartan', sans-serif;
+    height: 120vh;
+}
+
+.mainPage {
+    padding: 100px;
+}
+
+.bgPattern {
+    position: absolute;
+}
+
+.bgPatternTop {
+    top: 0;
+}
+.bgPatternBottom {
+    top: 100px;
+    left: 200px;
+}
+
+/* GRID */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+/* RATING CONTAINER */
+
+.mainDiv01 {
+    width: 70%;
+    margin-top: -50px;
+}
+
+.heading {
+    color: rgb(94, 41, 95);
+    font-size: 56px;
+}
+
+.div01Paragraph {
+    color: rgb(133, 123, 132);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.ratingDiv {
+    padding: 20px 30px 20px 30px;
+    background-color: rgb(247, 242, 248);
+    margin: 10px;
+    border-radius: 10px;
+    color: rgb(94, 41, 95);
+    font-weight: 700;
+    width: 65%;
+}
+
+.lastStartImage {
+    padding-right: 30px;
+}
+
+.ratingDiv02 {
+    margin-left: 50px;
+}
+
+.ratingDiv03 {
+    margin-left: 100px;
+}
+
+.mainDiv03 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.mainDiv03 > * {
+    background-color: rgb(81, 31, 80);
+    padding: 30px;
+    border-radius: 10px;
+    line-height: 20px;
+}
+
+/* MAIN PAGE PART 02 */
+.gridForNameImage {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    gap: 10px;
+}
+
+.avatarImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.avatarText {
+    margin-top: -15px;
+}
+
+.varifyText {
+    color: rgb(204, 109, 167);
+}
+
+.marginDiv02 {
+    margin-top: 20px;
+}
+
+.marginDiv03 {
+    margin-top: 40px;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 767px) {
+    .grid-container {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 50px;
+    }
+    .mainDiv01 {
+        width: 95%;
+        margin-top: -50px;
+        text-align: center;
+    }
+}
